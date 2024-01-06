@@ -1,0 +1,7 @@
+<p>posts-component</p>
+<ul *ngIf="posts">
+    <li *ngFor="let post of posts">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.body }}</p>
+    </li>
+  </ul>
